@@ -22,10 +22,10 @@ const elements = {
 
 // Config section (can be overridden by setting window.CROSSDESK_CONFIG before this script runs)
 const DEFAULT_CONFIG = {
-  signalingUrl: "wss://api.crossdesk.cn:9099",
+  signalingUrl: "wss://1314220.xyz:21111",
   iceServers: [
-    { urls: ["stun:api.crossdesk.cn:3478"] },
-    { urls: ["turn:api.crossdesk.cn:3478"], username: "crossdesk", credential: "crossdeskpw" },
+    { urls: ["stun:1314220.xyz:21112"] },
+    { urls: ["turn:1314220.xyz:21112"], username: "crossdesk", credential: "crossdeskpw" },
   ],
   heartbeatIntervalMs: 3000,
   heartbeatTimeoutMs: 10000,
